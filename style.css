@@ -1,0 +1,111 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #F3EFEF;
+	color: #584D3D;
+  }
+  
+  header {
+	background-color: #fff;
+	border-bottom: 1px solid #ccc;
+	padding: 20px;
+	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1, h2 {
+	font-family: 'Playfair Display', serif;
+  }
+  
+  h1 {
+	margin: 0;
+	font-size: 3rem;
+	color: #584D3D;
+	text-align: center;
+  }
+  
+  nav ul {
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	padding: 0;
+	margin-top: 30px;
+  }
+  
+  nav li {
+	margin: 0 10px;
+  }
+  
+  nav a {
+	text-decoration: none;
+	color: #584D3D;
+	font-weight: bold;
+  }
+  
+  main {
+	padding: 20px;
+  }
+  
+  section {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	margin-bottom: 30px;
+	background-color: #fff;
+  }
+  
+  section h2 {
+	text-align: center;
+	font-size: 2rem;
+	color: #584D3D;
+	margin-bottom: 20px;
+  }
+  
+  img {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+	height: auto;
+  }
+  
+  footer {
+	background-color: #584D3D;
+	color: #fff;
+	text-align: center;
+	padding: 10px;
+  }
+  
+  /* Stylist-specific styles */
+  #neil {
+	background-color: #E5D9D9;
+  }
+  
+  #lisa {
+	background-color: #F1EFE6;
+  }
+  
+  #christopher {
+	background-color: #ECE5E5;
+  }
+  
+  section p {
+	line-height: 1.5;
+	text-align: justify;
+  }
+  
+  /* Modern Farmhouse elements */
+  header {
+	background-image: url('header-bg.jpg');
+	background-size: cover;
+	background-position: center;
+  }
+  
+  nav a {
+	font-size: 1.5rem;
+  }
+  
+  section {
+	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+  }
